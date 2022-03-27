@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+</head>
+<body>
+<table border = 1>
+         <thead>
+            <td>Id</td>
+            <td>Gender</td>
+            <td>Title</td>
+            <td>First_Name</td>
+            <td>Last_Name</td>
+            <td>Street_Number</td>
+            <td>Street_Name</td>
+            <td>City</td>
+            <td>State</td>
+            <td>Country</td>
+            <td>Postcode</td>
+            <td>Email</td>
+            <td>Username</td>
+            <td>Password</td>
+            <td>Date_Of_Birth</td>
+            <td>Age</td>
+            <td>Phone</td>
+            <td>Cell</td>
+            <td>URL_Of_Photo</td>
+            <td>Nationality</td>
+         </thead>
+
+         {% for row in rows %}
+            <tr>
+                <td>{{ row['Id'] }}</td>
+                <td>{{ row['Gender'] }}</td>
+                <td>{{ row['Title'] }}</td>
+                <td>{{ row['First_Name'] }}</td>
+                <td>{{ row['Last_Name'] }}</td>
+                <td>{{ row['Street_Number'] }}</td>
+                <td>{{ row['Street_Name'] }}</td>
+                <td>{{ row['City'] }}</td>
+                <td>{{ row['State'] }}</td>
+                <td>{{ row['Country'] }}</td>
+                <td>{{ row['Postcode'] }}</td>
+                <td>{{ row['Email'] }}</td>
+                <td>{{ row['Username'] }}</td>
+                <td>{{ row['Password'] }}</td>
+                <td>{{ row['Date_Of_B'] }}</td>
+                <td>{{ row['Age'] }}</td>
+                <td>{{ row['Phone'] }}</td>
+                <td>{{ row['Cell'] }}</td>
+                <td>{{ row['URL_Of_Photo'] }}</td>
+                <td>{{ row['Nationality'] }}</td>
+            </tr>
+         {% endfor %}
+      </table>
+</body>
+</html>
