@@ -1,6 +1,7 @@
 # Flask Data Management Project
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 (https://opensource.org/licenses/MIT)
 
 This project is a Flask web application that utilizes a data parser to retrieve random people's data from a third-party API. It provides a user interface to view and interact with this data.
